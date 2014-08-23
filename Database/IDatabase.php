@@ -8,7 +8,17 @@
 
 namespace Database;
 
+use Database\Table\ITable;
 
-interface IDatabase {
 
+/**
+ * Interface IDatabase
+ * @package Database
+ */
+interface IDatabase
+{
+    /**
+     * @return ITable[]
+     */
+    function getTables();
 } 

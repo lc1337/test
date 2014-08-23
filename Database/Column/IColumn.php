@@ -9,6 +9,7 @@
 namespace Database\Column;
 
 
-interface IColumn {
-
+interface IColumn
+{
+    function getType();
 } 

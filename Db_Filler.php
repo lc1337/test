@@ -8,8 +8,6 @@
  */
 class Db_Filler
 {
-    function qwe()
-    {
 
-    }
+
 }

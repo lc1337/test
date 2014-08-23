@@ -9,6 +9,8 @@
 namespace Database\Column;
 
 
-class Column_Type {
-
+abstract class Column_Type
+{
+    const VARCHAR = 1;
+    const INT = 2;
 } 
